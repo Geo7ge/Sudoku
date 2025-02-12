@@ -11,7 +11,7 @@ function Tile({ value, colIndex, rowIndex, isFixed, onClick }) {
             ? "text-black font-bold"
             : "text-blue-900 font-bold cursor-pointer"
         }
-        text-3xl sm:text-4xl md:text-5xl lg:text-6xl
+        text-3xl sm:text-4xl md:text-4xl lg:text-5xl
       `}
       onClick={isFixed ? null : onClick}
     >

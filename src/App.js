@@ -3,7 +3,6 @@ import HowToPlay from "./HowToPlay";
 import Home from "./Home";
 import Game from "./Game";
 import NotFound from "./NotFound";
-import DifficultyModal from "./DifficultyModal";
 function App() {
   return (
     <Routes>

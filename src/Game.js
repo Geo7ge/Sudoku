@@ -45,10 +45,10 @@ function Game() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen space-y-10 p-4 bg-gray-100">
-      <h1 className="text-4xl sm:text-5xl md:text-6xl pt-10">Sudoku</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen space-y-5 p-4 bg-gray-100">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl">Sudoku</h1>
 
-      <div className="w-full max-w-[90vw] sm:max-w-[80vw] md:max-w-[60vw] lg:max-w-[50vw] aspect-square border-black border-8 box-content">
+      <div className="w-full max-w-[90vw] sm:max-w-[80vw] md:max-w-[50vw] lg:max-w-[40vw] aspect-square border-black border-8 box-content">
         {cells.map((row, rowIndex) => (
           <div key={rowIndex} className="grid grid-cols-9">
             {row.map((cell, colIndex) => (
